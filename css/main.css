@@ -1,0 +1,87 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color:wheat;
+}
+
+nav li{
+    display:inline;
+    margin: 400px;
+   
+}
+
+nav ul{
+    background-color:black;
+    margin: 0;
+    list-style-type: none;
+    padding: 20px;
+    
+}
+
+nav{
+    display: block;
+    color: white;
+}
+
+nav a{
+text-decoration: none;
+}
+
+nav a:hover{
+    color: wheat ;
+}
+
+div{
+    color: black;
+}
+
+.hero-image{
+    background-image:radial-gradient(rgba(221, 235, 25, 0.575),rgba(20, 22, 110, 0.432)),url(../images/Hero.png);
+    height: 50%; 
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-text{ 
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform:translate(-50%,-50%);
+}
+
+.Its_me{
+    color: black;
+    text-align: center;
+    text-decoration: dotted;
+    font-style: italic;
+    font-size: 45px;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+.Welcome{
+    text-align: center;
+}
+.openp{
+    color: black;
+    font-style:oblique
+}
+.pa{
+    text-align: center;
+}
+.ME{
+    text-align: center;
+    font-size: 300%;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.solo{
+    position: relative;
+    right: 6%;
+
+}
